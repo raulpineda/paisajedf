@@ -2,8 +2,8 @@
 'use strict';
 
 define(['app', 'angularMocks'], function(app) {
-	describe('myApp.version module', function() {
-		beforeEach(module('myApp.version'));
+	describe('paisajeDf.version module', function() {
+		beforeEach(module('paisajeDf.version'));
 
 		describe('interpolate filter', function() {
 			beforeEach(module(function($provide) {

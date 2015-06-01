@@ -2,15 +2,15 @@
 'use strict';
 
 define(['app', 'angularMocks'], function(app) {
-	describe('myApp.view2 module', function() {
+	describe('paisajeDf.login module', function() {
 
-		beforeEach(module('myApp.view2'));
+		beforeEach(module('paisajeDf.login'));
 
-		describe('view2 controller', function(){
+		describe('login controller', function(){
 
 			it('should ....', inject(function($controller) {
 			//spec body
-			var view2Ctrl = $controller('View2Ctrl', { $scope: {} });
+			var view2Ctrl = $controller('LoginController', { $scope: {} });
 			expect(view2Ctrl).toBeDefined();
 		}));
 
